@@ -23,7 +23,7 @@ const PropertyForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     
-    // Simple validation
+    // Simple validation 
     if (!formData.address || !formData.description || !formData.specifications) {
       setError('All fields are required');
       return;
